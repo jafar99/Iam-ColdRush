@@ -3,41 +3,16 @@
     display:inline-table;
     text-align: center;
     font-size: 16px;
-    margin: 10px 40px 10px 15px;
+    margin: 2% 2% 2% 2.5%;
      width: 20%;
+     border: 0.5px solid rgb(61, 52, 52);
+     background-color: #fcfbf7;
 
 }
 
-.Table2{
-    display:inline-table;
-    text-align: center;
-    font-size: 16px;
-    margin: 10px 40px 10px 15px;
-     width: 20%;
-}
-
-.Table3{
-    display:inline-table;
-    text-align: center;
-    font-size: 16px;
-    margin: 10px 40px 10px 15px;
-     width: 20%;
-}
 
 
-.Table4{
-    display:inline-table;
-    text-align: center;
-    font-size: 16px;
-    margin: 10px 40px 10px 15px;
-     width: 20%;
-}
 
-
-.TableData{
-    margin-left: 20px;
-    width: 100%;
-}
 
 
 

@@ -7,6 +7,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import ToggleButton from 'react-bootstrap/ToggleButton';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Button from 'react-bootstrap/Button';
+import Power from './Power';
 
 
 
@@ -14,7 +15,7 @@ import Button from 'react-bootstrap/Button';
 function DashboardData() {
 
   // const [checked, setChecked] = useState(false);
-  const [radioValue, setRadioValue] = useState(14);
+  const [radioValue, setRadioValue] = useState(1);
 
   const radios = [
     { name: 'OFF', value: '1' },
@@ -28,10 +29,10 @@ function DashboardData() {
   return (
 
 
-    <div className='controllerData'>
+    <div >
 
 
-      <Card style={{ width: '17rem' }} className="controller sm-2 mb-4 lg-6">
+      <Card  className="controller">
 
         <Card.Body className='cards' >
           <Card.Title className='title'>Controller 1</Card.Title>
@@ -65,7 +66,7 @@ function DashboardData() {
       {/* second Table */}
 
 
-      <Card style={{ width: '17rem' }} className="controller sm-2 mb-4 lg-6">
+      <Card  className="controller">
 
         <Card.Body className='cards' >
           <Card.Title className='title'>Controller 2</Card.Title>
@@ -99,7 +100,7 @@ function DashboardData() {
 
 
 
-      <Card style={{ width: '17rem' }} className="controller sm-2 mb-4 lg-6">
+      <Card  className="controller">
 
         <Card.Body className='cards' >
           <Card.Title className='title'>Controller 3</Card.Title>
@@ -132,7 +133,7 @@ function DashboardData() {
       {/* Fourth Controller */}
 
 
-      <Card style={{ width: '17rem' }} className="controller sm-2 mb-4 lg-6">
+      <Card  className="controller">
 
         <Card.Body className='cards' >
           <Card.Title className='title'>Controller 4</Card.Title>
@@ -164,7 +165,7 @@ function DashboardData() {
 
       {/* Fifth Controller */}
 
-      <Card style={{ width: '17rem' }} className="controller sm-2 mb-4 lg-6">
+      <Card className="controller">
 
         <Card.Body className='cards' >
           <Card.Title className='title'>Controller 5</Card.Title>
@@ -197,7 +198,7 @@ function DashboardData() {
 
       {/* Sixth controller  */}
 
-      <Card style={{ width: '17rem' }} className="controller sm-2 mb-4 lg-6">
+      <Card  className="controller ">
 
         <Card.Body className='cards' >
           <Card.Title className='title'>Controller 6</Card.Title>
@@ -227,7 +228,7 @@ function DashboardData() {
       </Card>
 
 
-      <Card style={{ width: '17rem' }} className="controller sm-2 mb-4 lg-6">
+      <Card  className="controller ">
 
         <Card.Body className='cards' >
           <Card.Title className='title'>Controller 7</Card.Title>
@@ -258,7 +259,7 @@ function DashboardData() {
       </Card>
 
 
-      <Card style={{ width: '17rem' }} className="controller sm-2 mb-4 lg-6">
+      <Card className="controller ">
 
         <Card.Body className='cards' >
           <Card.Title className='title'>Controller 8</Card.Title>
@@ -288,7 +289,7 @@ function DashboardData() {
       </Card>
 
 
-      <Card style={{ width: '17rem' }} className="controller sm-2 mb-4 lg-6">
+      <Card  className="controller ">
 
         <Card.Body className='cards' >
           <Card.Title className='title'>Controller 9</Card.Title>
@@ -319,7 +320,7 @@ function DashboardData() {
       </Card>
 
 
-      <Card style={{ width: '17rem' }} className="controller sm-2 mb-4 lg-6">
+      <Card  className="controller">
 
         <Card.Body className='cards' >
           <Card.Title className='title'>Controller 10</Card.Title>
@@ -388,7 +389,7 @@ function DashboardData() {
 
 
 
-
+            {/* <Power/> */}
 
 
 

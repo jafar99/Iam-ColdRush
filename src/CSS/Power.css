@@ -1,0 +1,26 @@
+.controller1 {
+    
+    width: 20%;
+    font-size: 20px;
+    display: inline-table;
+}
+
+.controller2 {
+    
+    width: 20%;
+    margin-left: 10%;
+    font-size: 18px;
+    display: inline-table;
+}
+
+.power {
+    margin-left: 40%;
+}
+
+.defreeze {
+    margin-left: 40%;
+}
+
+.head{
+    margin-left: 20%;
+}

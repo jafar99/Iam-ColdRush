@@ -3,18 +3,18 @@ import '../CSS/Data.css'
 import EnergyTable from './EnergyTable';
 import Table from 'react-bootstrap/Table';
 import Data2 from './Data2';
-
-
-
+import ZoneTable from './ZoneTable';
+import Power from './Power';
+import ZoneTable2 from './ZoneTable2';
 
 
 
 
 function Data() {
   return (
-    <div className='TableData'>
+    <div>
 
-    <Table  bordered  sm className='VoltageTable'>
+    <Table  bordered   className='TableValue'>
         <thead>
             <tr>
                 <th colspan="3">Voltage</th>
@@ -32,7 +32,7 @@ function Data() {
     </Table>
 
 
-    <Table  bordered  sm className='FreqTable'>
+    <Table  bordered   className='TableValue'>
         <thead>
             <tr>
                 <th colspan="3">Frequency</th>
@@ -50,7 +50,7 @@ function Data() {
 
     </Table>
 
-    <Table  bordered  sm className='TempTable'>
+    <Table  bordered   className='TableValue'>
         <thead>
             <tr>
                 <th colspan="3">Temparature</th>
@@ -68,7 +68,7 @@ function Data() {
 
     </Table>
 
-    <Table  bordered  sm className='xyzTable'>
+    <Table  bordered  className='TableValue'>
         <thead>
             <tr>
                 <th colspan="3">Voltage</th>
@@ -87,13 +87,19 @@ function Data() {
     </Table>
 
 
-    
-     <hr />
+ 
+     <EnergyTable/>  
 
-     
-     <EnergyTable/>   
+
+       <hr style={{marginLeft:'2%', marginRight:'2.5%'}}/> 
+       <Power/>
      {/* <Data2/> */}
 
+    <ZoneTable />
+
+ 
+
+    <ZoneTable2/>
    
 
    
